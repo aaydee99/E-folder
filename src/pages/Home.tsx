@@ -136,7 +136,7 @@ const Register: React.FC = () => {
                   <div className='-mt-0.5'>or select Avatar</div>
                   <div className='w-6 h-0.5 bg-black' />
                 </label>
-                <div className="flex space-x-4 justify-center">
+                <div className="flex lg:space-x-4 md:space-x-2 justify-center md:flex-row flex-col lg:items-start items-center">
                   <img src="/path-to-avatar1.png" alt="avatar1" className="w-12 h-12 rounded-full cursor-pointer" />
                   <img src="/path-to-avatar2.png" alt="avatar2" className="w-12 h-12 rounded-full cursor-pointer" />
                   <img src="/path-to-avatar3.png" alt="avatar3" className="w-12 h-12 rounded-full cursor-pointer" />
